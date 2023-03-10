@@ -5,7 +5,6 @@ public class Funcionario {
 	 private String nome;
 	 private String cpf;
 	 private double salario;
-	 private int teste2;
 	 
 	public Funcionario() {
 		
