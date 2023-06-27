@@ -1,21 +1,11 @@
 package albergonibank_herdado;
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	 private String nome;
 	 private String cpf;
 	 private double salario;
 	 
-	public Funcionario() {
-		
-		
-	}
-	 
-	public double getBonificacao() {
-		
-		return this.salario * 0.1;
-		
-	} 
 	 
 	public String getNome() {
 		return nome;
@@ -36,7 +26,10 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	 
-	 
+	//metodo sem corpo
+	public abstract double getBonificacao();  
+	
+	
 	 
 
 }
